@@ -4,7 +4,7 @@
 
 
 --4.2
-/* No because we don't have an fips that is '80'
+/* No because we don't have an fips that is '80' */
 
 
 --4.3
@@ -28,4 +28,12 @@ ORDER BY
     i.income DESC
 LIMIT 1;  -- Get the state with the highest income
 
-/* The sql code that I posted in pgAdmin gave me back Washington DC wich was the correct answer.
+/* The sql code that I posted in pgAdmin gave me back Washington DC wich was the correct answer. */
+
+--4.7
+/* Prompt: calculate the population growth rate in VA in the past 5 years in one sql code */ 
+/* We modified the prompt a few times to ensure that we got something that would give us a good answer, although it wasn't modified heavily. All we asked was for it to save the value as a ratio. */
+
+--4.8
+/* AI does not always give us a reliable answer. Not only in this lab but overall, it can create things that are not true or make up statistics if you ask it to. There always needs to be
+some caution when prompting with AI. While it is a great resource at some times, people must recognize that it is not perfect. Although, understanding its flaws can make it a powerful tool.
